@@ -12,5 +12,10 @@ public class HelloJenkinsfileTest {
 	public void test() {
 		assertEquals("HelloJenkinsfile", new HelloJenkinsfile().go());
 	}
+	
+	@Test
+	public void test1() {
+		assertEquals("HelloJenkinsfile", new HelloJenkinsfile().name());
+	}
 
 }
